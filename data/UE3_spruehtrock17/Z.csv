@@ -1,0 +1,15 @@
+;Name;Abbr;userunit;transform;offset;gradient;m;k;s;Kel;mol;amp;cand;ddl50;grad;DL_F;DL_GD;DL_GF
+1;TEG;T;SI;log;0;1;0;0;0;1;0;0;0;0;0;0;0;0
+2;p_D;p;SI;log;0;1;-1;1;-2;0;0;0;0;0;0;0;0;-1
+3;MS_S;MS;SI;log;0;1;0;1;-1;0;0;0;0;0;0;0;0;0
+4;MS_G;MG;SI;log;0;1;3;0;-1;0;0;0;0;0;0;0;0;0
+5;D_durchm;dd;SI;log;0;1;1;0;0;0;0;0;0;-1;0;-1;0;0
+6;Gasdichte;g_rho;SI;log;0;1;-3;1;0;0;0;0;0;0;0;0;0;0
+7;Verd_enth;enth;SI;log;0;1;2;0;-2;0;0;0;0;0;0;0;0;0
+8;Wärmekap;cp;SI;log;0;1;2;0;-2;-1;0;0;0;0;0;-1;0;0
+9;SuspDichte;s_rho;SI;log;0;1;-3;1;0;0;0;0;0;0;0;0;-1;0
+10;d50;d50;SI;log;0;1;1;0;0;0;0;0;0;1;0;0;0;0
+11;grad;grad;SI;log;0;1;0;0;0;0;0;0;0;0;1;0;0;0
+12;GranFestigk;GranF;SI;log;0;1;1;1;-2;0;0;0;0;0;0;1;0;0
+13;GruenDichte;Grrho;SI;log;0;1;-3;1;0;0;0;0;0;0;0;0;1;0
+14;GruenFestigk;Gfes;SI;log;0;1;-1;1;-2;0;0;0;0;0;0;0;0;1

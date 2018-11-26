@@ -1,0 +1,10 @@
+;Name;Abbr;Role;userunit;transform;userlow;userhigh;offset;gradient;m;k;s;Kel;mol;amp;cand;QVh
+1;TempEGas;T;contr;SI;log;443,15;493,15;0;1;0;0;0;1;0;0;0;0
+2;p_Duese;p;contr;SI;log;0,5;1;0;1;-1;1;-2;0;0;0;0;0
+3;MS_Susp;MS;contr;SI;log;0,00111;0,00222;0;1;0;1;-1;0;0;0;0;-1
+4;MS_Gas;MG;contr;SI;log;0,01389;0,02222;0;1;3;0;-1;0;0;0;0;1
+5;D_durchm;dd;const;SI;log;0,002;0,002;0;1;1;0;0;0;0;0;0;0
+6;Gasdichte;g_rho;const;SI;log;0,001;0,001;0;1;-3;1;0;0;0;0;0;1
+7;Verd_enth;enth;const;SI;log;1995384;1995384;0;1;2;0;-2;0;0;0;0;0
+8;Wärmekap;cp;const;SI;log;1005;1005;0;1;2;0;-2;-1;0;0;0;0
+9;SuspDichte;s_rho;const;SI;log;1000000;1000000;0;1;-3;1;0;0;0;0;0;0
