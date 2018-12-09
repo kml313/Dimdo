@@ -8,12 +8,14 @@ library(MASS)
 library(AlgDesign)
 
 #preparation
-dimdoe_path<-"C:\\Dokumente und Einstellungen\\orth\\Desktop\\HIS-1718-wise\\"
-script_path<-paste(dimdoe_path,"R-sequences\\",sep="")
-ex_path<-"C:\\Users\\orth\\Desktop\\HIS-1718-wise\\examples\\UE3_spruehtrock17\\"
+dimdoe_path<-"../"
+script_path<-paste(dimdoe_path,"lib/",sep="")
+ex_path<-paste(dimdoe_path,"data/UE3_spruehtrock17/",sep="")
 
 #transferring functions
-source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
+#source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
+source(paste(script_path,"dim_doe_functions_TurnQual.R",sep=""))
+
 
 
 ##########################################################################
