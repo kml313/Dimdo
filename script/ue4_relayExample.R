@@ -7,7 +7,7 @@ library(MASS)
 #preparation
 dimdoe_path<-"../"
 script_path<-paste(dimdoe_path,"lib/",sep="")
-ex_path<-paste(dimdoe_path,"data/UE4_RelayExample/",sep="")
+ex_path<-paste(dimdoe_path,"data/UE4_RelayExample/UE4_RelayExample/",sep="")
 
 #transferring functions
 #source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
