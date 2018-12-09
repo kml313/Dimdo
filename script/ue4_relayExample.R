@@ -6,10 +6,10 @@ library(MASS)
 
 #preparation
 dimdoe_path<-"../"
-script_path<-paste(dimdoe_path,"lib/",sep="")
-#script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
-#ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE4_RelayExample/"
-ex_path<-paste(dimdoe_path,"data/UE4_RelayExample/",sep="")
+#script_path<-paste(dimdoe_path,"lib/",sep="")
+script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
+ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE4_RelayExample/"
+#ex_path<-paste(dimdoe_path,"data/UE4_RelayExample/",sep="")
 
 #transferring functions
 #source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
