@@ -9,8 +9,10 @@ library(AlgDesign)
 
 #preparation
 dimdoe_path<-"../"
-script_path<-paste(dimdoe_path,"lib/",sep="")
-ex_path<-paste(dimdoe_path,"data/UE3_spruehtrock17/",sep="")
+script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
+#script_path<-paste(dimdoe_path,"lib/",sep="")
+ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE3_spruehtrock17/"
+#ex_path<-paste(dimdoe_path,"data/UE3_spruehtrock17/",sep="")
 
 #transferring functions
 #source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))

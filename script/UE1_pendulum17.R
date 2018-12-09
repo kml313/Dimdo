@@ -7,16 +7,15 @@ ls()
 library(MASS)
 library(AlgDesign)
 
-#preparation
 dimdoe_path<-"../"
-script_path<-paste(dimdoe_path,"lib/",sep="")
-ex_path<-paste(dimdoe_path,"data/UE1_pendulum17/",sep="")
+#script_path<-paste(dimdoe_path,"lib/",sep="")
+script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
+ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE1_pendulum17/"
+#ex_path<-paste(dimdoe_path,"data/UE4_RelayExample/UE4_RelayExample/",sep="")
 
 #transferring functions
 #source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
 source(paste(script_path,"dim_doe_functions_TurnQual.R",sep=""))
-
-
 ##########################################################################
 #start example
 ##########################################################################
@@ -41,11 +40,11 @@ D
 V<-infosFromU$V
 V
 
-Vok<-suggestVmatrix(u_roles,D,V)
+Vok<-suggestVmatrix(u_roles,D,V,debug=1)
 Vok$flag
 Vok$V
 V<-adjustVmatrix(Vok$V,1,1,"tanA")
-V
+
 
 #establish connection between u and x
 VsAndWs<-supplyVsAndWs(V,u_roles)
@@ -150,3 +149,4 @@ coef(fittedModel[[1]])		#should be the same result
 #################################################################
 #  Making predictions (e.g. for Scale-Up or for model validation)
 ######################################################
+

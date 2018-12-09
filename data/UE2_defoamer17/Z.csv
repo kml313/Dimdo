@@ -1,0 +1,7 @@
+;Name;Abbr;userunit;transform;offset;gradient;m;k;s;Kel;mol;amp;cand;Q_1
+1;Diameter;d;SI;log;0;1;1;0;0;0;0;0;0;3
+2;GasThroughput;q;ccm/s;log;0;1,00E-06;3;0;-1;0;0;0;0;-1
+3;TensideConcentr;cT;ml/l;log;0;0,001;0;0;0;0;0;0;0;0
+4;MaterialConst;MC;SI;log;0;1;0;0;0;0;0;0;0;0
+5;Gravitation;g;SI;log;0;1;1;0;-2;0;0;0;0;0
+6;n_crit;ncr;SI;log;0;1;0;0;-1;0;0;0;0;1
