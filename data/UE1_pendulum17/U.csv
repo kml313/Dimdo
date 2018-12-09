@@ -1,0 +1,5 @@
+;Name;Abbr;Role;userunit;transform;userlow;userhigh;offset;gradient;m;k;s;Kel;mol;amp;cand
+1;mass;mass;contr;g;log;210;450;0;0,001;0;1;0;0;0;0;0
+2;length;len;scup;SI;log;0,5;1;0;1;1;0;0;0;0;0;0
+3;gravity;g;const;SI;log;9,81;9,81;0;1;1;0;-2;0;0;0;0
+4;offset;offset;contr;cm;log;5;20;0;0,01;1;0;0;0;0;0;0
