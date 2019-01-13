@@ -4,8 +4,6 @@ source("/home/kamal/Desktop/R-Jenkins/lib/pathscript.R")
 
 #setPath(exampleName="UE4_RelayExample")
 setPath(code=4)
-
-
 #problem specification
 dataList<-readDimDoeData(ex_path)
 dataList$U<-read.csv(paste(ex_path,"U.csv",sep=""),sep=",", dec=",", row.names=1)

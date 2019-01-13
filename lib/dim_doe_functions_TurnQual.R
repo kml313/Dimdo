@@ -20,6 +20,7 @@ sCfM<-function(M,cols){
   colnames(Msel)<-colnames(M)[cols]
   rownames(Msel)<-rownames(M)
   return(as.matrix(Msel))
+  
 }
 #just plain picking rows out of a matrix (because R is too stupid to do it)
 sRfM<-function(M,rows){
