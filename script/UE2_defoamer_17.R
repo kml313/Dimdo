@@ -9,10 +9,10 @@ library(AlgDesign)
 
 #preparation
 dimdoe_path<-"../"
-script_path<-paste(dimdoe_path,"lib/",sep="")
-#script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
-ex_path<-paste(dimdoe_path,"data/UE2_defoamer17/",sep="")
-#ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE2_defoamer17/"
+#script_path<-paste(dimdoe_path,"lib/",sep="")
+script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
+#ex_path<-paste(dimdoe_path,"data/UE2_defoamer17/",sep="")
+ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE2_defoamer17/"
 
 #transferring functions
 source(paste(script_path,"lib.R",sep=""))

@@ -16,7 +16,8 @@ ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE1_pendulum17/"
 
 #transferring functions
 #source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
-source(paste(script_path,"dim_doe_functions_TurnQual.R",sep=""))
+#source(paste(script_path,"dim_doe_functions_TurnQual.R",sep=""))
+source(paste(script_path,"lib_pendulum.R",sep=""))
 
 
 

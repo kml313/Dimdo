@@ -1,24 +1,17 @@
 #              Initialisation and Import
-rm(list=ls())    #empty workspace if wanted ...
 
-ls()
-library(MASS)
+source("/home/kamal/Desktop/R-Jenkins/lib/pathscript.R")
 
-#preparation
-dimdoe_path<-"../"
-#script_path<-paste(dimdoe_path,"lib/",sep="")
-script_path<-"/home/kamal/Desktop/R-Jenkins/lib/"
-ex_path<-"/home/kamal/Desktop/R-Jenkins/data/UE4_RelayExample/"
-#ex_path<-paste(dimdoe_path,"data/UE4_RelayExample/",sep="")
-
-#transferring functions
-#source(paste(script_path,"dim_doe_functions_dataList_Vin.R",sep=""))
-source(paste(script_path,"dim_doe_functions_TurnQual.R",sep=""))
+#setPath(exampleName="UE4_RelayExample")
+setPath(code=4)
 #problem specification
 dataList<-readDimDoeData(ex_path)
+dataList$U<-read.csv(paste(ex_path,"U.csv",sep=""),sep=",", dec=",", row.names=1)
+dataList$U
 names(dataList)
 head(dataList$uu_design)
-infosFromU<-fetchInfosFromU(dataList$U)
+
+infosFromU<-fetchInfosFromU(dataList$U,debug=1)
 #extracting results:
 u_names<-infosFromU$u_names
 u_names
